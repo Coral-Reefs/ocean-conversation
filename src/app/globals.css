@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-agrandir: "Agrandir", sans-serif; /* Make sure this line corresponds to your font variable */
+}
+
+body {
+  font-family: var(--font-agrandir);
+}
+
+.swiper-slide {
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slider-wrapper::-webkit-scrollbar {
+  height: 15px;
+}
+
+.slider-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f15a;
+  border-radius: 30px;
+}
+
+/* Customize the draggable part of the scrollbar */
+.slider-wrapper::-webkit-scrollbar-thumb {
+  background: #b3fd71;
+  border-radius: 30px;
+}
