@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <header className="w-screen h-[calc(100vh-200px)] relative">
+      <header className="w-screen h-[calc(100vh-100px)] lg:h-[calc(100vh-200px)] relative">
         <video
           autoPlay
           muted
@@ -23,10 +23,10 @@ const Header = () => {
           </span>
         </div>
       </header>
-      <div className="w-full h-[200px] absolute bottom-0">
+      <div className="w-full h-[100px] lg:h-[200px] absolute bottom-0">
         <Image
           src="/images/header.png"
-          className="object-cover xl:object-fill "
+          className="object-cover md:object-fill"
           fill
         />
       </div>

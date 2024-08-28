@@ -21,7 +21,9 @@ const Encyclopedia = () => {
             <Link
               href={{
                 pathname: "/encyclopedia",
-                query: { title: "Cephalopods, Crustaceans & other shellfish" },
+                query: {
+                  title: "Cephalopods, Crustaceans & other shellfish",
+                },
               }}
             >
               <div className="w-full h-[270px] relative">
@@ -36,7 +38,6 @@ const Encyclopedia = () => {
                 </h3>
               </div>
             </Link>
-
             <Link
               href={{
                 pathname: "/encyclopedia",
